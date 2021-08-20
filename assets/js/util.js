@@ -585,3 +585,8 @@
 	};
 
 })(jQuery);
+
+
+function CopyContactMail() {
+	navigator.clipboard.writeText("contact@grav8.xyz");
+}
